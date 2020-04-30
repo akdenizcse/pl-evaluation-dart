@@ -12,8 +12,20 @@ Dart has a syntax quite similar to that of C and can transcompile into JavaScrip
 The GOTO conference took place during 10th-12th  October 2010 at Aarhus, Denmark. It was here that the Dart programming language was revealed for the first time. The Dart project had been initiated by Lars Bak, a Danish programmer famous for his work on virtual machines and contributions to the creation of Google Chrome browsers and Kasper Lund, a software engineer. 
 
 
+## - Why was it invented
 
-- Why was it invented
+C#  +  Java  +  Python  +  JavaScript  =  Dart
+
+It is compiled, type-safe language(like C# and Java)  and a scripting language (like Python and JavaScript) at the same time. Dart is similar to C# and Java syntax.
+
+Actually, Dart was made to replace Javascript, and at some point, all front-end Framework. But Dart today is a very different language than what it was 8 years ago. It has sound static type system, AOT compilation and lot of syntactic sugar to make building user interface in code better experience. Many of these language changes are driven by Flutter requirements. 
+
+Dart was originally designed with the web in mind. A collection of engineers within the Chrome/V8 org had a laundry list of issues they wanted to address with web development, from the performance of method dispatch in JavaScript to a cleaner, easier-to-use language with decent (but relatively compact) core libraries. A variant of Chromium informally referred to as Dartium embedded both V8 and the Dart VM and was used for rapid edit-refresh development. For production deployment, the code was compiled through dart2js, a tree-shaking compiler that emitted optimised, minified JavaScript. Dart on the web is pretty heavily-used within Google, particularly within Ads (for example, the AdWords frontend), but can also be seen in the Google Fiber frontend, and running on the Fiber set top boxes among others.
+
+
+
+
+
 - How to setup an environment to use it in different platforms
 
 # ILKIN MAMMADZADA
