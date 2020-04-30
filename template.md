@@ -1,4 +1,4 @@
-# DART
+# DART Programming Language
 
 # PARVIN EYVAZOV
 ## - History of the language
