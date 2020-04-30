@@ -26,6 +26,7 @@ Dart was originally designed with the web in mind. A collection of engineers wit
 ## - How to setup an environment to use it in different platforms
 ## Windows
 For installing the Dart SDK we can use [Chocolatey](https://chocolatey.org/)
+
 To install the Dart SDK:
 ```bash
 C:\ > choco install dart-sdk
