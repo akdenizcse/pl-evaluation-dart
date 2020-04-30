@@ -85,64 +85,79 @@ $ brew upgrade dart
 # ILKIN MAMMADZADA
 ## - When/why shall we use it
 There are a lot of things that makes Dart better than other OOP languages.
-# 1. Flexibility
+### 1. Flexibility
+
 	You can run your Dart code in anywhere. Mobile app codes in Dart can
-run for Android and iOS at the same time. Dart also gives you opportunity to switch
-between type-less and other type coding. For unit tester, Dart provides built-in
-support. You do not need any lib or framework.
+	run for Android and iOS at the same time. Dart also gives you opportunity to switch
+	between type-less and other type coding. For unit tester, Dart provides built-in
+	support. You do not need any lib or framework.
 
-# 2. Open Source
+### 2. Open Source
+
 	Open source languages are always choice of programmers. In tech world
-all open-source softwares self-improves. If user see bug, he/she report or try to 
-solve it immediately.
+	all open-source softwares self-improves. If user see bug, he/she report or try to 
+	solve it immediately.
 
-# 3. Easy to learn
-		Dart is statically typed.
+### 3. Easy to learn
+
+	Dart is statically typed.
 	Type inference refers to the automatic detection of the data type of an
- expression in a programming language. The ability to infer types automatically makes
- many programming tasks easier, leaving the programmer free to omit type annotations
- while still permitting type checking.
-		Dart syntax is simple.
+ 	expression in a programming language. The ability to infer types automatically makes
+ 	many programming tasks easier, leaving the programmer free to omit type annotations
+ 	while still permitting type checking.
+	Dart syntax is simple.
 	Anyone who knows a bit Java,C, C#, it will be very easy to learn Dart.
-Syntaxes are ver similar.
+	Syntaxes are ver similar.
 
-# 4. Compiles 
+### 4. Compiles 
+
 	Dart has AOT and JIT compiles. JIT compilation provides HOT Reloading.
-This saves a lot of time of devs.
+	This saves a lot of time of devs.
 
-# 5. Single-page app
+### 5. Single-page app
+
 	Dart can be extensively used to create single-page applications.
-Single-page applications apply only to websites and web applications.
-Single-page applications enable navigation between different screens of
-the website without loading a different webpage in the browser.
+	Single-page applications apply only to websites and web applications.
+	Single-page applications enable navigation between different screens of
+	the website without loading a different webpage in the browser.
 
 ## - Example codes
 
 
 ## - Things that are specific to this language?
 
-# 1. Concepts
+### 1. Concepts
+
 	Everything in Dart is object. All objects inherit from Object class.
 	Dart parses all your code before running it.
-# 2. Functions
+	
+### 2. Functions
+
 	Functions are also objects.
 	
-bool isNoble(int atomicNumber) => _nobleGases[atomicNumber] != null;
-	=> expr syntax is stand for {return expr; }
-# 3. Operators
+	```dart bool isTrue(int ballNumber) => _balles[ballNumber] != null;
+	```dart => expr ``` syntax is stand for ```dart {return expr; } ```
+	
+### 3. Operators
+
 	"~/"  -> divide, returns an integer result.
 	(..)  -> make a sequence of operations
 	Dart has syntactic sugar
 	Constructors aren’t inherited by subclass. If subclass
 	don't provide a constructor, a default constructor will be provided.
-
 	To create factory contructor, you can use ```dart factory ``` keyword.
-# 4. Asynchronous functions
+	
+### 4. Asynchronous functions
+
 	Dart provides Future and Stream object to support asynchronous functions.
-# Futures
+	
+#### Futures
+
 	  Future means return value will be returned at some time in the future.
 	  To get the result of Future, you can use .then followed by block codes
-# Streams
+	  
+#### Streams
+
 	  Stream support to receive a sequence of events.To get values from a Stream,
 	  use can use ```dart async. ```
 ```dart
