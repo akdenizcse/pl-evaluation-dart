@@ -23,10 +23,9 @@ Actually, Dart was made to replace Javascript, and at some point, all front-end 
 Dart was originally designed with the web in mind. A collection of engineers within the Chrome/V8 org had a laundry list of issues they wanted to address with web development, from the performance of method dispatch in JavaScript to a cleaner, easier-to-use language with decent (but relatively compact) core libraries. A variant of Chromium informally referred to as Dartium embedded both V8 and the Dart VM and was used for rapid edit-refresh development. For production deployment, the code was compiled through dart2js, a tree-shaking compiler that emitted optimised, minified JavaScript. Dart on the web is pretty heavily-used within Google, particularly within Ads (for example, the AdWords frontend), but can also be seen in the Google Fiber frontend, and running on the Fiber set top boxes among others.
 
 
-
-
-
-- How to setup an environment to use it in different platforms
+## - How to setup an environment to use it in different platforms
+## Windows
+For installing the Dart SDK we can use [Chocolatey](https://chocolatey.org/)
 
 # ILKIN MAMMADZADA
 - When/why shall we use it
