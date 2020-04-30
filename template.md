@@ -1,6 +1,6 @@
 # DART Programming Language
 
-<img src="https://dart.dev/assets/shared/dart-logo-for-shares.png?2" width = 150>
+<img src="https://dart.dev/assets/shared/dart-logo-for-shares.png?2" width = 400>
 
 # PARVIN EYVAZOV
 ## - History of the language
