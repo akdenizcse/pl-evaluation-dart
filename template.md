@@ -1,7 +1,7 @@
 # DART
 
 # PARVIN EYVAZOV
-## - History of the language: who/when invented it, which languages influenced it, etc.
+## - History of the language
 
 Dart is an object-oriented, class-based, garbage-collected language with C-style syntax. Dart can compile to either native code or JavaScript. It supports interfaces, mixins, abstract classes, reified generics and type interfence.
 
@@ -62,8 +62,18 @@ $ sudo apt-get install dart
 
 ## Mac
 
+First, we have to install [Homebrew](https://brew.sh/) and then run the following commands:
 
+```bash
+$ brew tap dart-lang/dart 
+$ brew install dart
+``` 
 
+To upgrade when a new release of Dart is available:
+
+```bash
+$ brew upgrade dart
+```
 
 
 
